@@ -1,4 +1,16 @@
 # file: .travis.yml
 language: objective-c
-script:
-  - xcodebuild -project travisSwift/travisSwift.xcodeproj -scheme travisSwift -sdk iphonesimulator10.1
+
+	branches:
+	  only:
+	    - master
+
+
+	xcode_project: travisSwift/travisSwift.xcodeproj
+	xcode_scheme: travisSwift
+	osx_image: xcode8.3
+	xcode_sdk: iphonesimulator10.0 
+
+
+	script:
+	- xcodebuild test -project travisSwift/travisSwift.xcodeproj -scheme travisSwift
