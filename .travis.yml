@@ -8,7 +8,7 @@ branches:
 xcode_project: travisSwift/travisSwift.xcodeproj
 xcode_scheme: travisSwift
 osx_image: xcode8.3
-xcode_sdk: iphonesimulator10.0 
+xcode_sdk: iphonesimulator9.3 
 
 script:
 - xcodebuild -project travisSwift/travisSwift.xcodeproj -scheme travisSwift
