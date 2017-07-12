@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					D4C42BF31F163F1300A18C0E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F7UT5M787G;
 						ProvisioningStyle = Automatic;
 					};
 					D4C42C071F163F1300A18C0E = {
@@ -414,7 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F7UT5M787G;
 				INFOPLIST_FILE = travisSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,7 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F7UT5M787G;
 				INFOPLIST_FILE = travisSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
