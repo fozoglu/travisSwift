@@ -11,4 +11,4 @@ osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.0 
 
 script:
-- xcodebuild test -project travisSwift/travisSwift.xcodeproj -scheme travisSwift
+- xcodebuild -project travisSwift/travisSwift.xcodeproj -scheme travisSwift
