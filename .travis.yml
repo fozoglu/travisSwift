@@ -1,14 +1,5 @@
 # file: .travis.yml
 language: objective-c
-
-branches:
-  only:
-    - master
-
-xcode_project: travisSwift/travisSwift.xcodeproj
-xcode_scheme: travisSwift
 osx_image: xcode8.3
-xcode_sdk: iphonesimulator9.3 
-
 script:
-- xcodebuild -project travisSwift/travisSwift.xcodeproj -scheme travisSwift
+    - xcodebuild clean test -project travisSwift/travisSwift.xcodeproj -scheme travisSwift -destination "platform=iOS Simulator,name=iPhone 7,OS=10.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
