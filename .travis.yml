@@ -3,10 +3,10 @@ branches:
  only:
  - master
 
-xcode_project: Swifternalization.xcodeproj
-xcode_scheme: SwifternalizationTests
+xcode_project: travisSwift.xcodeproj
+xcode_scheme: travisSwift
 osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.3
 
 script:
-- xcodebuild clean build test -travisSwift/travisSwift.xcodeproj -scheme travisSwift
+- xcodebuild -travisSwift/travisSwift.xcodeproj -scheme travisSwift
