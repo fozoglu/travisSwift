@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					D4C42BF31F163F1300A18C0E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7DGX7U8LX4;
 						ProvisioningStyle = Automatic;
 					};
 					D4C42C071F163F1300A18C0E = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DGX7U8LX4;
 				INFOPLIST_FILE = travisSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbsmobil.travisSwift;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DGX7U8LX4;
 				INFOPLIST_FILE = travisSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbsmobil.travisSwift;
@@ -507,6 +510,7 @@
 				D4C42C1E1F163F1300A18C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4C42C1F1F163F1300A18C0E /* Build configuration list for PBXNativeTarget "travisSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				D4C42C211F163F1300A18C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4C42C221F163F1300A18C0E /* Build configuration list for PBXNativeTarget "travisSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				D4C42C241F163F1300A18C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
